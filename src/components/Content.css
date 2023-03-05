@@ -1,0 +1,42 @@
+.thumbnail-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.reward {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.next-reward-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+}
+
+.next-reward {
+    font-size: 30px;
+}
+
+.progress-bar {
+    width: 80vw;
+    border: 1px solid #2BA871;
+    height: 8px;
+}
+
+.progress-bar .filled {
+    background-color: #2BA871;
+    height: 100%;
+}

@@ -1,0 +1,11 @@
+.btn {
+    background-color: #2BA871;
+    height: 60px;
+    font-family: monaco;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

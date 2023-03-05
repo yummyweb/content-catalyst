@@ -1,0 +1,63 @@
+.hero {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+.hero p {
+    font-size: 40px;
+    margin: 0px;
+    /* overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange;
+    animation:
+      typing 6s steps(40, end),
+      blink-caret .75s step-end infinite; */
+}
+
+.center-align {
+    text-align: center;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.input {
+    padding: 18px;
+    background-color: transparent;
+    border: 1px solid #2BA871;
+    border-radius: 10px;
+    width: 400px;
+    color: white;
+    outline: none;
+    font-size: 22px;
+}
+
+.journey-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}

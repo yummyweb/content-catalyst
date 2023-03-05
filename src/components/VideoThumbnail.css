@@ -1,0 +1,5 @@
+.thumbnail-container img {
+    border-radius: 20px;
+    border: 2px solid #2BA871;
+    width: 300px;
+}
